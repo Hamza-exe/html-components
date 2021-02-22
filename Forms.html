@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+
+<head>
+</head>
+
+
+<body>
+
+    <h2>Shipping</h2>
+
+<form action="/action_page.php">
+  <label for="uaddress">Users Address:</label><br>
+  <input type="text" id="uaddress" name="uaddress" placeholder="Please Enter your Address" size="30" maxlength="100" ><br>
+
+  <label for="upostal">User Postal Code:</label><br>
+  <input type="text" id="upostal" name="upostal" placeholder="A1A A1A" size="30" maxlength="7"><br><br>
+
+  <label for="ucity">User City:</label><br>
+  <input type="text" id="ucity" name="ucity" placeholder="Please Enter your city" size="30" maxlength="100" ><br><br>
+
+  <p>Please Choose Shipping Type</p>
+
+  <label for="shipping">Choose Shipping Type</label>
+
+  <select name="shipping" id="shipping">
+    <option value="standardshipping">Standard Shipping</option>
+    <option value="onedayshipping">One-Day Shipping</option>
+    <option value="twodayshipping">Two-Day Shipping</option>
+  </select>
+
+  <p>Select a Payment Method</p>
+
+    <label> <input type="radio" name="payment method" value="" checked="checked">Paypal</label>
+    <label> <input type="radio" name="payment method">Debit Card</label>
+    <label> <input type="radio" name="payment method">Credit Card</label> <br>
+
+    <label for="comments">Comments:</label><br>
+
+    <textarea id="comments" name="comments" rows="4" cols="40"> </textarea><br>
+
+    <label> <input type="checkbox" name="esign" value="" checked="checked">Sign me up for e-mail updates</label><br>
+    <label> <input type="checkbox" name="save" value="" checked="checked">Save my payment information</label><br>
+
+  <input type="submit" value="Submit"><br><br>
+
+</form> 
+
+</body>
